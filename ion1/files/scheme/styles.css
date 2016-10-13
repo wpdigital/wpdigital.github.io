@@ -4829,12 +4829,13 @@ body.c {  background-color:rgba(255, 255, 255, 1);
 #u392.c {
   left:496px;
   top:20px;
+  width:83px;
 }
 #u392_div.c {
   position:absolute;
   left:0px;
   top:0px;
-  width:116px;
+  width:83px;
   height:40px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -4854,7 +4855,7 @@ body.c {  background-color:rgba(255, 255, 255, 1);
   position:absolute;
   left:0px;
   top:0px;
-  width:116px;
+  width:83px;
   height:40px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -4876,7 +4877,7 @@ body.c {  background-color:rgba(255, 255, 255, 1);
   position:absolute;
   left:0px;
   top:0px;
-  width:116px;
+  width:83px;
   height:40px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -4895,16 +4896,18 @@ body.c {  background-color:rgba(255, 255, 255, 1);
 #u392.c.mouseDown {
 }
 #u393.c {
+  width:83px;
 }
 #u394.c {
   left:632px;
   top:20px;
+  width:92px;
 }
 #u394_div.c {
   position:absolute;
   left:0px;
   top:0px;
-  width:128px;
+  width:92px;
   height:40px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -4924,7 +4927,7 @@ body.c {  background-color:rgba(255, 255, 255, 1);
   position:absolute;
   left:0px;
   top:0px;
-  width:128px;
+  width:92px;
   height:40px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -4946,7 +4949,7 @@ body.c {  background-color:rgba(255, 255, 255, 1);
   position:absolute;
   left:0px;
   top:0px;
-  width:128px;
+  width:92px;
   height:40px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -4965,16 +4968,18 @@ body.c {  background-color:rgba(255, 255, 255, 1);
 #u394.c.mouseDown {
 }
 #u395.c {
+  width:92px;
 }
 #u396.c {
   left:780px;
   top:20px;
+  width:83px;
 }
 #u396_div.c {
   position:absolute;
   left:0px;
   top:0px;
-  width:115px;
+  width:83px;
   height:40px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -4994,7 +4999,7 @@ body.c {  background-color:rgba(255, 255, 255, 1);
   position:absolute;
   left:0px;
   top:0px;
-  width:115px;
+  width:83px;
   height:40px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -5016,7 +5021,7 @@ body.c {  background-color:rgba(255, 255, 255, 1);
   position:absolute;
   left:0px;
   top:0px;
-  width:115px;
+  width:83px;
   height:40px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -5035,16 +5040,18 @@ body.c {  background-color:rgba(255, 255, 255, 1);
 #u396.c.mouseDown {
 }
 #u397.c {
+  width:83px;
 }
 #u398.c {
   left:916px;
   top:20px;
+  width:74px;
 }
 #u398_div.c {
   position:absolute;
   left:0px;
   top:0px;
-  width:103px;
+  width:74px;
   height:40px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -5064,7 +5071,7 @@ body.c {  background-color:rgba(255, 255, 255, 1);
   position:absolute;
   left:0px;
   top:0px;
-  width:103px;
+  width:74px;
   height:40px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -5086,7 +5093,7 @@ body.c {  background-color:rgba(255, 255, 255, 1);
   position:absolute;
   left:0px;
   top:0px;
-  width:103px;
+  width:74px;
   height:40px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -5105,16 +5112,18 @@ body.c {  background-color:rgba(255, 255, 255, 1);
 #u398.c.mouseDown {
 }
 #u399.c {
+  width:74px;
 }
 #u400.c {
   left:1039px;
   top:20px;
+  width:51px;
 }
 #u400_div.c {
   position:absolute;
   left:0px;
   top:0px;
-  width:71px;
+  width:51px;
   height:40px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -5134,7 +5143,7 @@ body.c {  background-color:rgba(255, 255, 255, 1);
   position:absolute;
   left:0px;
   top:0px;
-  width:71px;
+  width:51px;
   height:40px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -5156,7 +5165,7 @@ body.c {  background-color:rgba(255, 255, 255, 1);
   position:absolute;
   left:0px;
   top:0px;
-  width:71px;
+  width:51px;
   height:40px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -5175,6 +5184,7 @@ body.c {  background-color:rgba(255, 255, 255, 1);
 #u400.c.mouseDown {
 }
 #u401.c {
+  width:51px;
 }
 #u402.c {
   left:1130px;
@@ -5206,7 +5216,7 @@ body.c {  background-color:rgba(255, 255, 255, 1);
   height:30px;
 }
 #u405.c {
-  left:621px;
+  left:661px;
   width:51px;
   height:27px;
 }
@@ -5299,7 +5309,7 @@ body.c {  background-color:rgba(255, 255, 255, 1);
 }
 #u413.c {
   left:690px;
-  top:177px;
+  top:160px;
   width:500px;
   height:453px;
 }
@@ -5645,7 +5655,7 @@ body.c {  background-color:rgba(255, 255, 255, 1);
   height:30px;
 }
 #u452.c {
-  left:536px;
+  left:576px;
   top:640px;
   width:51px;
   height:27px;

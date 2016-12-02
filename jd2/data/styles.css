@@ -1,5 +1,5 @@
 ﻿.ax_default {
-  font-family:'Arial Обычный', 'Arial';
+  font-family:'ArialMT', 'Arial';
   font-weight:400;
   font-style:normal;
   font-size:13px;
@@ -8,28 +8,28 @@
   line-height:normal;
 }
 .headline {
-  font-family:'Roboto Regular', 'Roboto';
+  font-family:'Roboto-Regular', 'Roboto';
   font-weight:400;
   font-style:normal;
   font-size:24px;
   color:rgba(0, 0, 0, 0.866666666666667);
 }
 .title {
-  font-family:'Roboto Medium', 'Roboto';
+  font-family:'Roboto-Medium', 'Roboto Medium', 'Roboto';
   font-weight:500;
   font-style:normal;
   font-size:20px;
   color:rgba(0, 0, 0, 0.866666666666667);
 }
 .subheader {
-  font-family:'Roboto Regular', 'Roboto';
+  font-family:'Roboto-Regular', 'Roboto';
   font-weight:400;
   font-style:normal;
   font-size:16px;
   color:rgba(0, 0, 0, 0.866666666666667);
 }
 .primary_text_dark {
-  font-family:'Roboto Regular', 'Roboto';
+  font-family:'Roboto-Regular', 'Roboto';
   font-weight:400;
   font-style:normal;
   font-size:14px;
@@ -37,35 +37,35 @@
   text-align:left;
 }
 .secondary_text_dark {
-  font-family:'Roboto Regular', 'Roboto';
+  font-family:'Roboto-Regular', 'Roboto';
   font-weight:400;
   font-style:normal;
   font-size:14px;
   color:rgba(0, 0, 0, 0.537254901960784);
 }
 .disabled_text_dark {
-  font-family:'Roboto Regular', 'Roboto';
+  font-family:'Roboto-Regular', 'Roboto';
   font-weight:400;
   font-style:normal;
   font-size:14px;
   color:rgba(0, 0, 0, 0.258823529411765);
 }
 .primary_text_light {
-  font-family:'Roboto Regular', 'Roboto';
+  font-family:'Roboto-Regular', 'Roboto';
   font-weight:400;
   font-style:normal;
   font-size:14px;
   color:#FFFFFF;
 }
 .float_button {
-  font-family:'Roboto Medium', 'Roboto';
+  font-family:'Roboto-Medium', 'Roboto Medium', 'Roboto';
   font-weight:500;
   font-style:normal;
   font-size:24px;
   color:#FFFFFF;
 }
 .flat_button {
-  font-family:'Roboto Medium', 'Roboto';
+  font-family:'Roboto-Medium', 'Roboto Medium', 'Roboto';
   font-weight:500;
   font-style:normal;
   font-size:14px;
@@ -74,7 +74,7 @@
 .status_bar_light {
 }
 .title_bar_light {
-  font-family:'Roboto Medium', 'Roboto';
+  font-family:'Roboto-Medium', 'Roboto Medium', 'Roboto';
   font-weight:500;
   font-style:normal;
   font-size:20px;
@@ -84,7 +84,7 @@
 .content_bg_light {
 }
 .dialog_light {
-  font-family:'Roboto Medium', 'Roboto';
+  font-family:'Roboto-Medium', 'Roboto Medium', 'Roboto';
   font-weight:500;
   font-style:normal;
   font-size:20px;
@@ -92,7 +92,7 @@
   text-align:left;
 }
 .hint_text {
-  font-family:'Roboto Regular', 'Roboto';
+  font-family:'Roboto-Regular', 'Roboto';
   font-weight:400;
   font-style:normal;
   font-size:16px;
@@ -117,7 +117,7 @@
 .contact_avatar {
 }
 .divider {
-  font-family:'Roboto Regular', 'Roboto';
+  font-family:'Roboto-Regular', 'Roboto';
   font-weight:400;
   font-style:normal;
   font-size:14px;
@@ -129,7 +129,7 @@
   color:#FFFFFF;
 }
 .heading_1 {
-  font-family:'Arial Обычный', 'Arial';
+  font-family:'ArialMT', 'Arial';
   font-weight:bold;
   font-size:32px;
   text-align:left;
@@ -143,30 +143,30 @@
 .ellipse {
 }
 .heading_2 {
-  font-family:'Arial Обычный', 'Arial';
+  font-family:'ArialMT', 'Arial';
   font-weight:bold;
   font-size:24px;
   text-align:left;
 }
 .heading_3 {
-  font-family:'Arial Обычный', 'Arial';
+  font-family:'ArialMT', 'Arial';
   font-weight:bold;
   font-size:18px;
   text-align:left;
 }
 .heading_4 {
-  font-family:'Arial Обычный', 'Arial';
+  font-family:'ArialMT', 'Arial';
   font-weight:bold;
   font-size:14px;
   text-align:left;
 }
 .heading_5 {
-  font-family:'Arial Обычный', 'Arial';
+  font-family:'ArialMT', 'Arial';
   font-weight:bold;
   text-align:left;
 }
 .heading_6 {
-  font-family:'Arial Обычный', 'Arial';
+  font-family:'ArialMT', 'Arial';
   font-weight:bold;
   font-size:10px;
   text-align:left;
@@ -189,7 +189,7 @@
 .flow_shape {
 }
 .shape1 {
-  font-family:'Arial Обычный', 'Arial';
+  font-family:'ArialMT', 'Arial';
   font-weight:400;
   font-style:normal;
   font-size:13px;

@@ -6425,10 +6425,6 @@ body.b {  background-color:rgba(255, 255, 255, 1);
 #u4624.b {
   left:930px;
   top:15px;
-  -webkit-transform:rotate(180deg);
-  -moz-transform:rotate(180deg);
-  -ms-transform:rotate(180deg);
-  transform:rotate(180deg);
 }
 #u4624_img.b {
 }
@@ -8417,10 +8413,6 @@ body.c {  background-color:rgba(255, 255, 255, 1);
 #u4624.c {
   left:1160px;
   top:21px;
-  -webkit-transform:rotate(180deg);
-  -moz-transform:rotate(180deg);
-  -ms-transform:rotate(180deg);
-  transform:rotate(180deg);
 }
 #u4624_img.c {
 }

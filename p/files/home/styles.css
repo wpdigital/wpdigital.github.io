@@ -3,7 +3,7 @@
   background-image:none;
   position:static;
   left:auto;
-  width:360px;
+  width:361px;
   margin-left:0;
   margin-right:0;
   text-align:left;
@@ -16,21 +16,21 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:1200px;
-  height:700px;
+  width:360px;
+  height:575px;
 }
 #u0 {
   position:absolute;
-  left:323px;
-  top:105px;
-  width:1200px;
-  height:700px;
+  left:1px;
+  top:65px;
+  width:360px;
+  height:575px;
 }
 #u1 {
   position:absolute;
   left:2px;
-  top:342px;
-  width:1196px;
+  top:280px;
+  width:356px;
   visibility:hidden;
   word-wrap:break-word;
 }
@@ -38,21 +38,21 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:960px;
-  height:575px;
+  width:1200px;
+  height:700px;
 }
 #u2 {
   position:absolute;
-  left:978px;
-  top:280px;
-  width:960px;
-  height:575px;
+  left:323px;
+  top:105px;
+  width:1200px;
+  height:700px;
 }
 #u3 {
   position:absolute;
   left:2px;
-  top:280px;
-  width:956px;
+  top:342px;
+  width:1196px;
   visibility:hidden;
   word-wrap:break-word;
 }
@@ -60,22 +60,22 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:360px;
+  width:960px;
   height:575px;
 }
 #u4 {
   position:absolute;
-  left:0px;
-  top:65px;
-  width:360px;
+  left:978px;
+  top:280px;
+  width:960px;
   height:575px;
-  opacity:0.77;
 }
 #u5 {
   position:absolute;
   left:2px;
   top:280px;
-  width:356px;
+  width:956px;
+  visibility:hidden;
   word-wrap:break-word;
 }
 #u6_div {
@@ -498,7 +498,7 @@
 #u39 {
   position:absolute;
   left:10px;
-  top:346px;
+  top:357px;
   width:340px;
   height:48px;
   font-family:'Roboto-Regular', 'Roboto';
@@ -1256,22 +1256,18 @@ body.a {  background-color:rgba(255, 255, 255, 1);
 #u1.a {
 }
 #u2.a {
-  left:0px;
-  top:65px;
 }
 #u2_img.a {
 }
 #u3.a {
 }
 #u4.a {
-  top:60px;
-  width:960px;
+  left:0px;
+  top:65px;
 }
 #u4_img.a {
-  width:960px;
 }
 #u5.a {
-  width:956px;
 }
 #u6.a {
   left:359px;
@@ -2014,8 +2010,6 @@ body.b {  background-color:rgba(255, 255, 255, 1);
   text-align:left;
 }
 #u0.b {
-  left:0px;
-  top:63px;
 }
 #u0_img.b {
 }
@@ -2023,21 +2017,19 @@ body.b {  background-color:rgba(255, 255, 255, 1);
 }
 #u2.b {
   left:0px;
-  top:65px;
+  top:63px;
 }
 #u2_img.b {
 }
 #u3.b {
 }
 #u4.b {
-  top:60px;
-  width:960px;
+  left:0px;
+  top:65px;
 }
 #u4_img.b {
-  width:960px;
 }
 #u5.b {
-  width:956px;
 }
 #u6.b {
   left:467px;

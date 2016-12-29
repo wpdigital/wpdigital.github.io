@@ -91,7 +91,7 @@
   top:98px;
   width:363px;
   height:542px;
-  opacity:0.77;
+  opacity:0.88;
 }
 #u7 {
   position:absolute;
@@ -385,8 +385,8 @@
 }
 #u24 {
   position:absolute;
-  left:137px;
-  top:765px;
+  left:134px;
+  top:756px;
   width:82px;
   height:24px;
   font-family:'Roboto-Bold', 'Roboto Bold', 'Roboto';
@@ -1407,6 +1407,7 @@ body.a {  background-color:rgba(255, 255, 255, 1);
 }
 #u24.a {
   left:189px;
+  top:765px;
   width:91px;
   height:26px;
 }

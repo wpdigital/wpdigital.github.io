@@ -58,7 +58,7 @@
 #u165 {
   position:absolute;
   left:10px;
-  top:390px;
+  top:400px;
   width:340px;
   height:200px;
 }
@@ -87,7 +87,7 @@
 #u167 {
   position:absolute;
   left:10px;
-  top:150px;
+  top:160px;
   width:340px;
   height:200px;
 }
@@ -110,7 +110,7 @@
   box-sizing:border-box;
   border-width:1px;
   border-style:solid;
-  border-color:rgba(121, 121, 121, 1);
+  border-color:rgba(228, 228, 228, 1);
   border-left:0px;
   border-top:0px;
   border-right:0px;
@@ -129,6 +129,7 @@
   top:0px;
   width:360px;
   height:50px;
+  opacity:0.77;
 }
 #u171 {
   position:absolute;
@@ -310,7 +311,7 @@
 #u186 {
   position:absolute;
   left:10px;
-  top:172px;
+  top:182px;
   width:170px;
   height:170px;
 }
@@ -377,7 +378,7 @@
 #u190 {
   position:absolute;
   left:190px;
-  top:268px;
+  top:278px;
   width:110px;
   height:30px;
   font-family:'Roboto-Regular', 'Roboto';
@@ -414,7 +415,7 @@
 #u192 {
   position:absolute;
   left:190px;
-  top:220px;
+  top:230px;
   width:170px;
   height:35px;
   font-family:'Roboto-Black', 'Roboto Black', 'Roboto';
@@ -440,7 +441,7 @@
 #u194 {
   position:absolute;
   left:180px;
-  top:398px;
+  top:408px;
   width:175px;
   height:175px;
 }
@@ -462,7 +463,7 @@
 #u196 {
   position:absolute;
   left:190px;
-  top:170px;
+  top:180px;
   width:40px;
   height:40px;
 }
@@ -484,7 +485,7 @@
 #u198 {
   position:absolute;
   left:143px;
-  top:408px;
+  top:418px;
   width:27px;
   height:43px;
 }
@@ -506,7 +507,7 @@
 #u200 {
   position:absolute;
   left:190px;
-  top:293px;
+  top:303px;
   width:47px;
   height:40px;
 }
@@ -541,7 +542,7 @@
 #u202 {
   position:absolute;
   left:10px;
-  top:458px;
+  top:468px;
   width:160px;
   height:35px;
   font-family:'Roboto-Black', 'Roboto Black', 'Roboto';
@@ -580,7 +581,7 @@
 #u204 {
   position:absolute;
   left:20px;
-  top:498px;
+  top:508px;
   width:150px;
   height:30px;
   font-family:'Roboto-Regular', 'Roboto';
@@ -606,7 +607,7 @@
 #u206 {
   position:absolute;
   left:137px;
-  top:538px;
+  top:548px;
   width:33px;
   height:30px;
 }
@@ -628,7 +629,7 @@
 #u208 {
   position:absolute;
   left:99px;
-  top:546px;
+  top:556px;
   width:19px;
   height:14px;
 }
@@ -662,7 +663,7 @@
 #u210 {
   position:absolute;
   left:10px;
-  top:120px;
+  top:130px;
   width:340px;
   height:26px;
   font-family:'Roboto-LightItalic', 'Roboto Light Italic', 'Roboto';
@@ -688,7 +689,7 @@
 #u212 {
   position:absolute;
   left:327px;
-  top:120px;
+  top:130px;
   width:13px;
   height:16px;
 }
@@ -722,7 +723,7 @@
 #u214 {
   position:absolute;
   left:10px;
-  top:360px;
+  top:370px;
   width:340px;
   height:26px;
   font-family:'Roboto-LightItalic', 'Roboto Light Italic', 'Roboto';
@@ -748,7 +749,7 @@
 #u216 {
   position:absolute;
   left:320px;
-  top:360px;
+  top:370px;
   width:20px;
   height:17px;
 }
@@ -782,7 +783,7 @@
 #u218 {
   position:absolute;
   left:216px;
-  top:330px;
+  top:340px;
   width:110px;
   height:12px;
   font-family:'Roboto-LightItalic', 'Roboto Light Italic', 'Roboto';
@@ -808,7 +809,7 @@
 #u220 {
   position:absolute;
   left:192px;
-  top:330px;
+  top:340px;
   width:14px;
   height:8px;
 }
@@ -843,7 +844,7 @@
 #u222 {
   position:absolute;
   left:35px;
-  top:572px;
+  top:582px;
   width:110px;
   height:12px;
   font-family:'Roboto-LightItalic', 'Roboto Light Italic', 'Roboto';
@@ -870,7 +871,7 @@
 #u224 {
   position:absolute;
   left:154px;
-  top:572px;
+  top:582px;
   width:14px;
   height:8px;
 }
@@ -940,7 +941,7 @@
 #u228 {
   position:absolute;
   left:10px;
-  top:610px;
+  top:614px;
   width:340px;
   height:26px;
   font-family:'Roboto-Light', 'Roboto Light', 'Roboto';
@@ -1667,7 +1668,7 @@ body.a {  background-color:rgba(255, 255, 255, 1);
   box-sizing:border-box;
   border-width:1px;
   border-style:solid;
-  border-color:rgba(121, 121, 121, 1);
+  border-color:rgba(228, 228, 228, 1);
   border-left:0px;
   border-top:0px;
   border-right:0px;
@@ -2395,7 +2396,7 @@ body.b {  background-color:rgba(255, 255, 255, 1);
   box-sizing:border-box;
   border-width:1px;
   border-style:solid;
-  border-color:rgba(121, 121, 121, 1);
+  border-color:rgba(228, 228, 228, 1);
   border-left:0px;
   border-top:0px;
   border-right:0px;

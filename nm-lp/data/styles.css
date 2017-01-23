@@ -59,3 +59,22 @@
 }
 .icon {
 }
+.secondary_text_dark {
+  font-family:'Roboto-Regular', 'Roboto';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:rgba(0, 0, 0, 0.537254901960784);
+}
+.hint_text {
+  font-family:'Roboto-Regular', 'Roboto';
+  font-weight:400;
+  font-style:normal;
+  font-size:16px;
+  color:rgba(0, 0, 0, 0.258823529411765);
+}
+.paragraph1 {
+  text-align:left;
+}
+.horizontal_line {
+}

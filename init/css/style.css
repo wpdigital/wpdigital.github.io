@@ -1,0 +1,638 @@
+/* ------- General settings ------- */
+
+html, body {
+	min-height: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+.row {
+	margin: 0;
+}
+
+.wrapper {
+	height: 100%;
+	width: 100%;	
+	background-repeat: no-repeat;
+}
+
+#mask {
+	position: absolute;
+	display: none;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 5;
+}
+
+#side-menu {
+	position: fixed;
+	min-height: 100%;
+	width: 300px;
+	left: -100%;
+	background-color: #fff;
+	-webkit-box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.5);
+	box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.5);
+	z-index: 7;
+}
+
+#side-menu li {
+	line-height: 35px;
+	padding: 0 1em;
+}
+
+#side-menu li a {
+	color: #6C6C6C;
+	transition: color .3s;
+}
+
+#side-menu li a:hover {
+	color: #0275D8;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+/* ------- INDEX ------- */
+
+/* ------- Header ------- */
+
+header {
+	position: fixed;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0 1em;
+	line-height: 55px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-bottom: 1px solid #C4CED8;
+	z-index: 3;
+}
+
+#top-menu-left a i,
+#logo-container,
+#top-menu-right a i {
+	display: flex;
+	flex-direction: row;
+}
+
+#top-menu-left a i {
+	justify-content: flex-start;
+}
+
+#logo-container {	
+	justify-content: center;
+}
+
+#top-menu-right a i {	
+	justify-content: flex-end;
+}
+
+#top-menu-left a i,
+#top-menu-right a i {
+	color: #6C6C6C;
+}
+
+header a.brand {
+	height: 55px;
+	width: 159px;
+	display: block;
+	background-image: url('../img/WPD_logo.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/* ------- End of Header ------- */
+
+/* ------- Slider ------- */
+
+#slider {
+	display: flex;
+	flex-direction: column;
+	-webkit-background-size: cover;
+	background-image: url('../img/slider2000-02.png');
+	background-size: cover;
+	height: 800px;
+	width: 100%;
+	padding: 450px 1em 0 1em;
+		
+}
+
+#slider h1 {
+	font-size: 72px;	
+	font-weight: 600;
+}
+
+#slider h3 {
+	font-size: 36px;	
+	font-weight: 500;
+}
+
+
+#slider h1,
+#slider h3 {
+	color: #fff;
+	text-shadow: 2px 2px 2px #4B4B4B;
+}
+
+
+/* ------- End of Slider ------- */
+
+/* ------- Slogan ------- */
+
+.slogan {
+	background-color: #fff;
+}
+
+.slogan>.container h2 {
+	margin-bottom: 0;
+	line-height: 230px;
+	font-weight: 600;
+	font-size: 33px;
+}
+
+/* ------- End of Slogan ------- */
+
+/* ------- Info Section ------- */
+
+.info-section1,
+.info-section2 {
+	display: flex;
+	flex-direction: row;
+	padding: 0 1em;	
+	background-color: #fff;
+}
+
+.info-section2 {
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 600px;
+	width: 100%;	
+	justify-content: flex-start;
+	align-items: center;
+	background-image: url('../img/CTA1600-01.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.info-section2 i {
+	font-size: 120px;
+}
+
+.info-section2 h1 {
+	margin-bottom: 0;
+	font-weight: 500;
+}
+
+.info-section2 div:last-child {
+	padding-left: 1em;
+}
+
+.info-block {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	padding-bottom: 125px;
+}
+
+.info-block div {
+	align-self: center;
+}
+
+.info-block i {
+	margin-right: 10px;	
+}
+
+.info-block h4 {
+	margin-bottom: 0;
+}
+
+/* ------- End of Info Section ------- */
+
+/* ------- Mail block ------- */
+
+.mail-block {
+	display: flex;
+	flex-direction: row;
+}
+
+.mail-block div {
+	width: 100%;
+}
+
+.mail-block div:first-child {
+	display: flex;
+	flex-direction: row;
+	align-items: center;		
+}
+
+.mail-block div:first-child>div {
+	width: auto;
+	padding: 1em;
+}
+
+.mail-block div:first-child>div h4 {
+	margin-bottom: 0;
+}
+
+.mail-block div:last-child {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	padding-right: 1em;
+}
+
+.mail-block div:last-child a.btn-lg {
+	width: 250px;
+	height: 60px;
+	line-height: 30px;
+	margin: 0;
+}
+
+/* ------- END OF INDEX ------- */
+
+/* ------- SERVICES PAGES ------- */
+
+#slogan-srv {
+	padding-top: 90px;
+	padding-left: 1em;
+}
+
+#slogan-srv h1 {
+	font-size: 72px;
+	font-weight: 600;
+	margin-bottom: 40px;
+}
+
+#slogan-srv h3 {
+	font-size: 33px;
+}
+
+#info-section-srv {
+	display: flex;
+	flex-direction: row;
+	padding: 60px 1em;
+}
+
+#info-section-srv div {
+	width: 100%;
+	padding-right: 6em;
+}
+
+#info-section-srv div h3 {
+	margin-bottom: 25px;
+	font-weight: 600;
+}
+
+#info-section-srv div h5 {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+#links-section {
+	display: flex;
+	flex-direction: row;
+	padding: 0 1em;
+}
+
+#links-section div {
+	width: 100%;
+	padding-bottom: 70px;
+}
+
+#links-section div a {
+	display: block;
+	color: #5E5E5E;
+	transition: color .3s;
+}
+
+#links-section div a:hover {
+	color: #0275D8;
+}
+
+#links-section div a i {
+	height: 64px;
+	float: left;
+	margin-right: 10px;
+}
+
+#links-section div a h3 {
+	font-size: 16px;
+	font-weight: 600;
+	padding-top: 10px;
+}
+
+#links-section div a p {
+	font-size: 16px;
+}
+
+#mail-section-srv {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 0 1em;
+}
+
+#mail-section-srv div {
+	width: 100%;
+}
+
+#mail-section-srv div h3 {
+	font-size: 2em;
+	font-weight: 600;
+}
+
+#mail-section-srv div:last-child {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+#mail-section-srv div:last-child a.btn-lg,
+#mail-section-p4 div:last-child a.btn-lg {
+	width: 250px;
+	height: 60px;
+	line-height: 30px;
+	margin: 0;
+}
+
+/* ------- END OF SERVICES PAGES ------- */
+
+/* ------- AGILE PAGE ------- */
+
+#slogan-ag {
+	padding-top: 90px;
+	padding-left: 1em;
+	padding-bottom: 65px;
+}
+
+#slogan-ag h1 {
+	font-size: 72px;
+	font-weight: 600;
+	margin-bottom: 40px;
+}
+
+#slogan-ag h3 {
+	font-size: 33px;
+}
+
+#info-section-ag {
+	display: flex;
+	flex-direction: row;
+	padding: 0 1em;
+}
+
+#info-section-ag div {
+	width: 100%;
+	padding-bottom: 85px;
+}
+
+#info-section-ag div h3 {
+	margin-bottom: 25px;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+#info-section-ag div div {
+	height: 150px;
+	width: 250px;
+	background-color: #F2F2F2;
+	border: 1px solid #3F3F3F;
+}
+
+#mail-section-ag {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 0 1em;
+}
+
+#mail-section-ag div {
+	width: 100%;
+}
+
+#mail-section-ag div h3 {
+	font-size: 2em;
+	font-weight: 600;
+}
+
+#mail-section-ag div:last-child {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+/* ------- END OF AGILE PAGE ------- */
+
+/* ------- CONTACT PAGE ------- */
+
+#slogan-p4 {
+	padding-top: 90px;
+	padding-bottom: 50px;
+	padding-left: 1em;
+}
+
+.form-section {
+	display: flex;
+	flex-direction: row;
+	padding: 0 1em 3em 1em;
+}
+
+.form-section div {
+	width: 100%;
+	padding-right: 1em;
+}
+
+.form-section div p {
+	margin-bottom: 0;
+}
+
+#mail-section-p4 {
+	display: flex;
+	flex-direction: row;
+	padding: 0 1em;
+	align-items: center;
+}
+
+#mail-section-p4 div {
+	width: 100%;
+}
+
+#mail-section-p4 div p i {
+	line-height: 36px;
+}
+
+#mail-section-p4 div:last-child {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+/* ------- END OF PAGE 4 ------- */
+
+/* ------- Footer ------- */
+
+footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+footer div {
+	width: 100%;
+}
+
+.footer-logo {
+	height: 100px;
+	width: 300px;
+	display: block;
+	background-image: url('../img/brand-logo1.png');
+	background-repeat: no-repeat;
+}
+
+footer div:last-child {
+	text-align: right;
+	padding-right: 1em;
+}
+
+footer div:last-child h5 {
+	margin-bottom: 0;
+}
+
+footer div:last-child h6 {
+	margin-bottom: 0;
+}
+
+/* ------- Adaptive design settings ------- */
+
+@media only screen and (max-width: 768px) {
+	.info-section1 {
+		flex-direction: column;
+	}
+
+	.info-section2 {
+		justify-content: center;
+	}
+
+	.mail-block {
+		flex-direction: column;
+	}
+
+	.mail-block div:first-child,
+	.mail-block div:last-child {
+		justify-content: center;
+	}
+
+	.mail-block div:last-child {
+		padding: 2em 1em;
+	}
+
+	#info-section-srv,
+	#mail-section-srv {
+		flex-direction: column;
+	}
+
+	#mail-section-srv {
+		text-align: center;
+	}
+
+	#mail-section-srv div:last-child,
+	#mail-section-ag div:last-child,
+	#mail-section-p4 div:last-child {
+		justify-content: center;
+		margin-top: 2em;
+		margin-bottom: 2em;
+	}
+
+	#info-section-ag,
+	#mail-section-ag {
+		flex-direction: column;
+	}
+
+	#mail-section-ag {
+		text-align: center;
+	}
+
+	#mail-section-p4 {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	#mail-section-p4 div {
+		display: flex;
+		justify-content: center;
+	}
+
+	#mail-section-p4 div:last-child {
+		justify-content: center;
+	}
+
+	.form-section {
+		flex-direction: column;
+	}
+
+	footer {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	footer div:first-child {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	footer div:last-child {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	footer div:last-child h5,
+	footer div:last-child h6 {
+		line-height: 50px;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	#info-section-srv div {
+		padding-bottom: 30px;
+	}
+
+	#info-section-srv div h3 {
+		margin-bottom: 10px;
+	}
+
+	#links-section {
+		flex-direction: column;
+	}
+
+	#links-section a {
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	#links-section div a i {
+		float: none;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#slider h1 {
+		font-size: 3em;
+	}
+}

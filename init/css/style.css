@@ -15,7 +15,7 @@ html, body {
 
 .wrapper {
 	height: 100%;
-	width: 100%;	
+	width: 100%;
 	background-repeat: no-repeat;
 }
 
@@ -87,11 +87,11 @@ header {
 	justify-content: flex-start;
 }
 
-#logo-container {	
+#logo-container {
 	justify-content: center;
 }
 
-#top-menu-right a i {	
+#top-menu-right a i {
 	justify-content: flex-end;
 }
 
@@ -122,16 +122,16 @@ header a.brand {
 	height: 800px;
 	width: 100%;
 	padding: 450px 1em 0 1em;
-		
+
 }
 
 #slider h1 {
-	font-size: 72px;	
+	font-size: 72px;
 	font-weight: 600;
 }
 
 #slider h3 {
-	font-size: 36px;	
+	font-size: 36px;
 	font-weight: 500;
 }
 
@@ -153,7 +153,7 @@ header a.brand {
 
 .slogan>.container h2 {
 	margin-bottom: 0;
-	line-height: 230px;
+	line-height: 5rem;
 	font-weight: 600;
 	font-size: 33px;
 }
@@ -166,7 +166,7 @@ header a.brand {
 .info-section2 {
 	display: flex;
 	flex-direction: row;
-	padding: 0 1em;	
+	padding: 0 1em;
 	background-color: #fff;
 }
 
@@ -174,7 +174,7 @@ header a.brand {
 	-webkit-background-size: cover;
 	background-size: cover;
 	height: 600px;
-	width: 100%;	
+	width: 100%;
 	justify-content: flex-start;
 	align-items: center;
 	background-image: url('../img/CTA1600-01.png');
@@ -210,7 +210,7 @@ header a.brand {
 }
 
 .info-block i {
-	margin-right: 10px;	
+	margin-right: 10px;
 }
 
 .info-block h4 {
@@ -233,7 +233,7 @@ header a.brand {
 .mail-block div:first-child {
 	display: flex;
 	flex-direction: row;
-	align-items: center;		
+	align-items: center;
 }
 
 .mail-block div:first-child>div {

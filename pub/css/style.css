@@ -121,6 +121,7 @@ header a.brand {
 	display: flex;
 	flex-direction: column;
 	-webkit-background-size: cover;
+	align-items: center;
 	background-image: url('../img/slider2000-02.png');
 	background-size: cover;
 	height: 800px;

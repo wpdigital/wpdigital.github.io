@@ -29,6 +29,7 @@ text-shadow: black 0.1em 0.1em 0.2em;
 
 /* Image for Parallax Section */
 .paralsec {
+  	align-items: left;
 background-image: url("images/1.jpg");
 }
 

@@ -4,13 +4,13 @@
  * All credit still goes to Martin and any issues/complaints/questions to me. *
  ******************************************************************************/
 
-var TO_ADDRESS = "contact.nelsonic+form.submit@gmail.com"; // change this ...
+var TO_ADDRESS = "hello@wolffpershing.digital"; // change this ...
 
 function formatMailBody(obj) { // function to spit out all the keys/values from the form in HTML
   var result = "";
   for (var key in obj) { // loop over the object passed to the function
     result += "<h4 style='text-transform: capitalize; margin-bottom: 0'>" + key + "</h4><div>" + obj[key] + "</div>";
-    // for every key, concatenate an `<h4 />`/`<div />` pairing of the key name and its value, 
+    // for every key, concatenate an `<h4 />`/`<div />` pairing of the key name and its value,
     // and append it to the `result` string created at the start.
   }
   return result; // once the looping is done, `result` will be one long string to put in the email body
@@ -23,7 +23,7 @@ function doPost(e) {
     record_data(e);
 
     var mailData = e.parameters; // just create a slightly nicer variable name for the data
-    
+
     MailApp.sendEmail({
       to: TO_ADDRESS,
       subject: "Contact form submitted",

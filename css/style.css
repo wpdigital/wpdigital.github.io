@@ -75,7 +75,7 @@ header {
 	align-items: center;
 	padding: 0 1em;
 	line-height: 55px;
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.95);
 	border-bottom: 1px solid #C4CED8;
 	z-index: 3;
 }
@@ -414,7 +414,7 @@ header a.brand {
 }
 
 #info-section-ag div div {
-	height: 150px;
+	height: 140px;
 	width: 250px;
 	background-color: #F2F2F2;
 	border: 1px solid #3F3F3F;

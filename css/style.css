@@ -122,7 +122,7 @@ header a.brand {
 	flex-direction: column;
 	-webkit-background-size: cover;
 	align-items: center;
-	background-image: url('../img/slider2000-02.png');
+	background-image: url('../img/slider2000-02.jpg');
 	background-size: cover;
 	height: 800px;
 	width: 100%;
@@ -182,7 +182,7 @@ header a.brand {
 	width: 100%;
 	justify-content: flex-start;
 	align-items: center;
-	background-image: url('../img/CTA1600-01.png');
+	background-image: url('../img/CTA1600-01.jpg');
 	background-repeat: no-repeat;
 	background-position: right;
 	background-color: rgba(255, 255, 255, 0.5);

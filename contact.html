@@ -114,13 +114,39 @@
               <div class="info-block">
                 <div class="slogan">
 <br><br>
-          <h2>Our Address:</h2><br>
-          <h4>27 Old Gloucester Street, London, United Kingdom, WC1N 3AX</h4><br>
-            <h5> London: ‎+44(0) 20-3289-9415</h5><br>
-            <h5>New York: ‎+1(917) 725-3156</h5><br>
-            <h5>Los Angeles: ‎+1(949) 648-3813</h5><br>
-            <h5>Kiev: ‎+38(096) 556-5560</h5><br>
-            <h5>Moscow: ‎+7(925) 196-5518</h5><br>
+<div class="row">
+<div class="col-md-4">
+            <h2>Contact Us:</h2><br>
+            <h5>London: <a href="tel: ‎+44(0) 20-3289-9415">‎+44(0) 20-3289-9415</a></h5><br>
+            <h5>New York: <a href="tel: +19177253156">‎+1(917) 725-3156</a></h5><br>
+            <h5>Los Angeles: ‎<a href="tel: +19496483813">+1(949) 648-3813</a></h5><br>
+            <h5>Kiev: <a href="tel: ‎‎+380965565560">‎+38(096) 556-5560</a></h5><br>
+            <h5>Moscow: <a href="tel: ‎+7925196-5518">‎+7(925) 196-5518</a></h5><br>
+</div>
+<div class="col-md-8">
+        <br>    <div id="map"></div>
+              <script>
+              function initMap() {
+                var uluru = {lat: 51.520732, lng: -0.121893};
+                var map = new google.maps.Map(document.getElementById('map'), {
+                  zoom: 15,
+                  center: uluru
+                });
+                var marker = new google.maps.Marker({
+                  position: uluru,
+                  map: map
+                });
+              }
+            </script>
+            <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC62ZjMd83iweIt0N9jY6k_UQ_4_1f8Ke0&callback=initMap">
+            </script>
+<br>
+                        <h4>27 Old Gloucester Street, London, United Kingdom, WC1N 3AX</h4><br><br><br>
+
+</div>
+</div>
+
           </div></div></div>
 
     </section>
